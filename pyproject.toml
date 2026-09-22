@@ -1,0 +1,17 @@
+[project]
+name = "ddr-ai"
+version = "0.1.0"
+description = "把内存条换成纸 + AI 的沙箱（整活项目，但每个数字都是真的）"
+readme = "README.md"
+authors = [
+    { name = "guozhianNB", email = "2025060904020@std.uestc.edu.cn" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+ddr-ai = "ddr_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"

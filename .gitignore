@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# 本地配置：里面有 API Key，绝不能进版本库
+.env
+.env.local
+
+# 测试临时产物
+tests/_tmp_settings/
